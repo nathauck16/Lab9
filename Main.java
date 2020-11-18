@@ -14,7 +14,7 @@ class Main {
     people.add(new Person("B", 13, "Yellow"));
     people.add(new Person("C", 44, "Black"));
     people.add(new Person("D", 4, "Green"));
-  }
+  
 
   try {
     toWriteFile = new FileWriter("data.txt");
@@ -62,6 +62,6 @@ class Main {
       System.out.println("An error occurred: " + exception);
       }
 
-
+  }
   }
 }
